@@ -1,0 +1,128 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary, .order-summary, .coupon-section {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.coupon-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.coupon-btn {
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    background: #fff;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.coupon-btn:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.coupon-btn.selected {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #218838;
+}
+.coupon-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.coupon-button {
+    background: #f4f4f4;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    min-width: 150px;
+    text-align: center;
+}
+
+.coupon-button.selected {
+    background: #4caf50;
+    color: white;
+    border-color: #388e3c;
+}
+
+.coupon-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coupon-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.coupon-type {
+    font-size: 12px;
+    color: #555;
+}
+
+.discount-summary {
+    margin-top: 15px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.discount-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discount-summary li {
+    font-size: 14px;
+    margin: 5px 0;
+}

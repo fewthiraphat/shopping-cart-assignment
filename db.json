@@ -1,0 +1,69 @@
+{
+    "products": [
+        { "id": "1", "title": "T-shirt", "url":"https://yuedpao.com/cdn/shop/files/BLACK.jpg?v=1739954218&width=2000", "category": "clothing", "price": 250 },
+        { "id": "2", "title": "ADIDAS MEN RUNNING SHOES GALAXY 6 BLACK.WHITE", "url":"https://contents.mediadecathlon.com/p2701139/k$3c3b29b2ee1908e51e44986be28dca14/adidas-men-running-shoes-galaxy-6-black-white-adidas-8895812.jpg?f=1920x0&format=auto", "category": "shoes", "price": 1300 },
+        { "id": "3", "title": "Bar Earing Gold", "url":"https://eu.rosefieldwatches.com/cdn/shop/files/0008594_989cb8f6-efe7-4f96-92b9-4bef79a2f262.jpg?v=1722950938", "category": "accessories", "price": 1000 },
+        { "id": "4", "title": "Stussy Shirt", "url":"https://www.slumltd.com/content/images/thumbs/0010220_stussy-basic-tee-black_530.jpeg", "category": "clothing", "price": 4000 },
+        { "id": "5", "title": "Flipflop", "url":"https://contents.mediadecathlon.com/p2436013/k$e60ab16e748ca8da9247789ac3091e53/m-flip-flops-black-olaian-8752631.jpg?f=1920x0&format=auto", "category": "shoes", "price": 700 },
+        { "id": "6", "title": "Annalise Clover Heart Necklace", "url":"https://www.charleskeith.co.th/dw/image/v2/BCWJ_PRD/on/demandware.static/-/Sites-th-products/default/dw553312e9/images/hi-res/2023-L6-CK5-22120371-57-1.jpg?sw=756&sh=1008", "category": "accessories", "price": 100 },
+        { "id": "7", "title": "Belt", "url":"https://www.suitcube.com/wp-content/uploads/2019/12/Untitled-1.jpg", "category": "accessories", "price": 1900 },
+        { "id": "8", "title": "Regular Fit Bomber jacket", "url":"https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/zoom/ed0a3082635faeaba2ff242ca205280c7cf24599_xxl-1.jpg", "category": "clothing", "price": 1000 },
+        { "id": "9", "title": "Boot", "url":"https://www.timberland.com.my/wp-content/uploads/product/f23/10061713-HERO.jpg", "category": "shoes", "price": 3900 }
+    ],
+    "coupons": [
+        {
+        "campaign": "Fixed amount",
+        "category": "Coupon",
+        "discount_rules": {
+            "type": "fixed_amount",
+            "parameters": {
+            "amount": 50
+            }
+        }
+        },
+        {
+        "campaign": "Percentage discount",
+        "category": "Coupon",
+        "discount_rules": {
+            "type": "percentage",
+            "parameters": {
+            "percentage": 10
+            }
+        }
+        },
+        {
+        "campaign": "Percentage discount by item category",
+        "category": "On Top",
+        "discount_rules": {
+            "type": "category_percentage",
+            "parameters": {
+            "category": "clothing",
+            "percentage": 15
+            }
+        }
+        },
+        {
+        "campaign": "Discount by points",
+        "category": "On Top",
+        "discount_rules": {
+            "type": "points",
+            "parameters": {
+            "customer_points": 68,
+            "conversion_rate": "1 point = 1 THB",
+            "max_discount": "20% of total price"
+            }
+        }
+        },
+        {
+        "campaign": "Special campaigns",
+        "category": "Seasonal",
+        "discount_rules": {
+            "type": "threshold_discount",
+            "parameters": {
+            "every_x_thb": 300,
+            "discount_y_thb": 40
+            }
+        }
+        }
+    ]
+  }

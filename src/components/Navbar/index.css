@@ -1,0 +1,38 @@
+.navbar-container{
+    width:100vw;
+    background-color: #84d8f0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
+    /* margin-top:20px; */
+    align-items: center;
+    background-color: #84d8f0;
+}
+
+.navbar-home{
+    display: flex;
+    align-items: center;
+    column-gap: 5vw;
+}
+
+.search {
+    height:30px;
+    width:300px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+}
+
+.test{
+    background-color:green;
+}
+
+a {
+    text-decoration: none;
+}
